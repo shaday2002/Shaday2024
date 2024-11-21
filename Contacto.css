@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.contenedor{
+    padding: 60px 0;
+    width:90% ;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: rgb(237, 159, 25);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom : 60px;
+
+}
+
+header{
+    width:100% ;
+    height: 600px; ;
+    background: url(Compañeros.jpg);
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+ 
+    
+
+}
+
+
+nav{
+    text-align: left;
+    padding: 30px 50px 0 0;
+    margin-left: 3%;
+
+}
+
+nav> a{
+    color:rgb(249, 212, 6);
+    font-weight: 300;
+    text-decoration: none;
+   margin-right: 10px;
+
+}
+
+
+nav> a:hover{
+    text-decoration: underline;
+   }
+
+.Ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+header .texto-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.texto-header h1{
+    font-size: 50px;
+    color: rgb(253, 250, 250);
+}
+
+
+.texto-header h2{
+      font-size: 30px;
+      font-weight: 300;
+      color: rgb(242, 242, 238);
+      text-align: center;
+}
+
+
+.Ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+header .texto-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.texto-header h1{
+    font-size: 50px;
+    color: rgb(253, 250, 250);
+}
+
+
+.texto-header h2{
+      font-size: 30px;
+      font-weight: 300;
+      color: rgb(242, 242, 238);
+      text-align: center;
+}
+
+
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    color: white;
+    border-bottom: 3px solid yellow;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.banner .contact {
+    margin-top: 1em;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.banner .contact:hover {
+    background: #ffd700;
+}
+
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p, .banner .contact {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    background-color: #f4eeee;
+    border-radius: 8px;
+    border: 1px solid #0a0a0a; /* Color y grosor del borde */
+    box-shadow: 5px 5px 9px rgba(9, 0, 0, 0.3); /* Desplazamiento x, desplazamiento y, difuminado, color */
+    padding: 20px;
+    margin: 20px auto;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #08bef5;
+}
